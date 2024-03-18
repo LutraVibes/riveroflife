@@ -5,7 +5,15 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    /* Use Roboto Serif font */
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Adjust weight as needed */
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
+
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
