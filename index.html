@@ -33,6 +33,7 @@
             background-color: #007bff;
             color: #fff;
             padding: 20px;
+            margin-bottom: 20px;
         }
 
         header h1 {
@@ -54,21 +55,30 @@
             text-decoration: none;
         }
 
-        section {
+        .section-box {
             padding: 20px;
             margin-bottom: 30px;
-            background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-size: cover;
+            background-position: center;
+            color: #fff;
         }
 
-        section h2 {
-            color: #007bff;
-            margin-bottom: 10px;
+        .white-block {
+            background-color: #fff;
+            height: 20px;
+            margin-bottom: 20px;
         }
 
-        section p {
-            margin-bottom: 10px;
+        .white-separator {
+            background-color: #fff;
+            height: 2px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 20px;
         }
 
         footer {
@@ -101,28 +111,40 @@
             </ul>
         </nav>
     </header>
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Here you can provide a brief introduction to your counseling practice, your mission, values, and any other relevant information.</p>
-    </section>
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Couple Counseling</li>
-            <li>Individual Therapy</li>
-            <li>Family Counseling</li>
-            <li>Group Therapy</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Feel free to reach out to us for appointments or inquiries.</p>
-        <address>
-            Email: info@counselingservices.com<br>
-            Phone: 123-456-7890<br>
-            Address: 123 Main Street, City, State, Zip
-        </address>
-    </section>
+    
+    <div class="section-box" style="background-image: url('image1.jpg');">
+        <div class="section-content">
+            <h2>About Us</h2>
+            <p>Here you can provide a brief introduction to your counseling practice, your mission, values, and any other relevant information.</p>
+        </div>
+    </div>
+    <div class="white-block"></div>
+    
+    <div class="section-box" style="background-image: url('image2.jpg');">
+        <div class="section-content">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Couple Counseling</li>
+                <li>Individual Therapy</li>
+                <li>Family Counseling</li>
+                <li>Group Therapy</li>
+            </ul>
+        </div>
+    </div>
+    <div class="white-separator"></div>
+    
+    <div class="section-box" style="background-image: url('image3.jpg');">
+        <div class="section-content">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us for appointments or inquiries.</p>
+            <address>
+                Email: info@counselingservices.com<br>
+                Phone: 123-456-7890<br>
+                Address: 123 Main Street, City, State, Zip
+            </address>
+        </div>
+    </div>
+    
     <footer>
         <p>&copy; 2024 Counseling Services. All rights reserved.</p>
     </footer>
